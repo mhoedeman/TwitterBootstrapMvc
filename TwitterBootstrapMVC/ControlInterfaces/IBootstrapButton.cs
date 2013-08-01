@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Web;
@@ -22,7 +22,7 @@ namespace TwitterBootstrapMVC.ControlInterfaces
         T IconAppend(Icons icon);
         T IconAppend(Icons icon, bool isWhite);
         T IconAppend(string customCssClass);
-        T Disabled();
+        T Disabled(bool condition);
 
         [EditorBrowsable(EditorBrowsableState.Never)]
         Type GetType();
